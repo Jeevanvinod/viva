@@ -1,0 +1,62 @@
+1)defination of git 
+->What is Git: Features, Commands, Branch and Workflow in Git
+Git is a version control system used for tracking changes in computer files
+It is generally used for source code management in software development.
+
+2)defination of git hub
+->GitHub is a web-based interface that uses Git, the open source version control software that lets multiple people make separate changes to web pages at the same time. As Carpenter notes, because it allows for real-time collaboration, GitHub encourages teams to work together to build and edit their site content.
+
+3)diffrence b/w git and git hub
+->What is the difference between Git and GitHub? Git is a tool for version control that enables you to monitor and record the evolution of your source code. GitHub is an online hosting service that facilitates the management of Git repositories
+
+4)what is git add
+->The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit
+
+5)what is git log
+->git log. The git log command displays committed snapshots. It lets you list the project history, filter it, and search for specific changes.
+
+6)what is git show
+->git-show is a command line utility that is used to view expanded details on Git objects such as blobs, trees, tags, and commits.
+
+7)what is git --oneline
+->The --oneline option is used with the Git log command to display each commit on a single line
+
+8)what is git commit
+->The git commit command is one of the core primary functions of Git. Prior use of the git add command is required to select the changes that will be staged for the next commit. Then git commit is used to create a snapshot of the staged changes along a timeline of a Git projects history
+
+9)what is git status
+->The git status command displays the state of the working directory and the staging area
+
+10)what is git checkout
+->In Git terms, a "checkout" is the act of switching between different versions of a target entity
+
+11)what is git init
+->The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository
+
+12)what is git clone
+->git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location
+
+13)what is git merge
+->Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch
+
+14)what is git fetch
+->The git fetch command downloads commits, files, and refs from a remote repository into your local repo.
+
+15)what is git remote 
+->The git remote command lets you create, view, and delete connections to other repositories.
+
+16)what is git push
+->The git push command is used to upload local repository content to a remote repository
+
+17)what is git pull
+->The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content
+
+18)what is git rebase
+->rebasing is changing the base of your branch from one commit to another making it appear as if you'd created your branch from a different commit.
+
+19)what is git stash
+->Git stash acts as a version control tool and lets developers work on other activities or switch branches in Git without having to discard or commit changes that aren't ready. Developers can simply stash the changes in their working directory and index state
+
+20)how to set username and email on git
+->Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+->Set your email address: git config --global user.email "MY_NAME@example.com"
